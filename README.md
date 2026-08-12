@@ -22,12 +22,12 @@ No caminho, o notebook também:
 
 ## Principais achados
 
-- **O tamanho da economia (PIB) é o preditor mais forte entre os indicadores de riqueza** — mais do que PIB per capita ou população isoladamente. Um modelo de regressão linear com as três variáveis (padronizadas por z-score) atinge **R² = 0,74** nos dados de treino e **R² = 0,52** quando validado numa amostra de teste que nunca viu.
+- **O tamanho da economia (PIB) é o preditor mais forte entre os indicadores de riqueza** — mais do que PIB per capita ou população isoladamente. Um modelo de regressão linear com as três variáveis (padronizadas por z-score) atinge **R² = 0,76** nos dados de treino e **R² = 0,52** quando validado numa amostra de teste que nunca viu.
 - **A correlação mais forte com o total de medalhas não é econômica — é o tamanho da delegação** (0,88 entre `athlete_count` e medalhas, contra 0,85 do PIB).
-- **População sozinha não garante medalhas**: Índia, Nigéria, Indonésia e Paquistão, entre os países mais populosos do mundo, ficam abaixo da média de medalhas e no fundo do ranking de eficiência.
+- **População sozinha não garante medalhas**: Nigéria, Indonésia e Paquistão, entre os países mais populosos do mundo, ficam abaixo da média de medalhas. A Índia é um caso à parte: supera a média em medalhas absolutas (6), mas tem de longe a pior eficiência população/medalha da base (242 milhões de habitantes por medalha).
 - Países como **Reino Unido, França, Austrália e Nova Zelândia** ganharam muito mais medalhas do que sua riqueza sozinha previa — sinal de que investimento esportivo dedicado pesa tanto quanto o tamanho da economia.
 - **PIB per capita e expectativa de vida caminham juntos**, e os dois se relacionam com mais medalhas.
-- **A altura dos atletas segue de perto uma distribuição normal** (r ≈ 0,997 combinada, ≈ 0,999 separada por gênero) — esperado pelo Teorema Central do Limite em populações grandes.
+- **A altura dos atletas segue de perto uma distribuição normal** (r ≈ 0,997 combinada; 0,999 no masculino e 0,995 no feminino quando separada por gênero) — esperado pelo Teorema Central do Limite em populações grandes.
 
 ## Alguns dos gráficos
 
