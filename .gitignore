@@ -1,0 +1,14 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Ambiente / editor
+.claude/
+.vscode/
+.DS_Store
+
+# kagglehub cache (baixado automaticamente pelo notebook, não precisa versionar)
+.cache/
